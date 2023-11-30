@@ -1,0 +1,13 @@
+2023-Nov-30 19:04:52 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Nov-30 19:04:52 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Nov-30 19:04:55 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Nov-30 19:04:55 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Nov-30 19:04:59 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Nov-30 19:04:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Nov-30 19:04:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user scroll down the page
+2023-Nov-30 19:04:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Nov-30 19:04:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Nov-30 19:05:00 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter email for subscription
+2023-Nov-30 19:05:00 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on arrow button
+2023-Nov-30 19:05:00 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the subscription success msg
+2023-Nov-30 19:05:01 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

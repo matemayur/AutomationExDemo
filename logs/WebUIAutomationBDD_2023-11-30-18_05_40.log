@@ -1,0 +1,7 @@
+2023-Nov-30 18:05:40 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Nov-30 18:05:40 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Nov-30 18:05:45 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Nov-30 18:05:46 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Nov-30 18:05:57 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Nov-30 18:05:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Nov-30 18:05:58 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

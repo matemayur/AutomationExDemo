@@ -1,0 +1,222 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 3546721700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21577400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-30T13:34:51.111Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 4324637200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User is able to open browser, Navigate to URL and verify the subscription field",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-is-able-to-open-browser--navigate-to-url-and-verify-the-subscription-field",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 2989500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 723881000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20648700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Scroll down to footer of the page",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_scroll_down_to_footer_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "user verify text SUBSCRIPTION",
+              "user verify textSUBSCRIPTION"
+            ],
+            "result": {
+              "duration": 249018200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "After scrooling down user is able to see \"SUBSCRIPTION\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUBSCRIPTION\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.after_scrooling_down_user_is_able_to_see_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "user enter email matemayur786@gmail.com"
+            ],
+            "result": {
+              "duration": 665363900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter email address as \"matemayur786@gmail.com\" in box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"matemayur786@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_address_as_in_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125870600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on arrow button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_arrow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "user verify success msg - You have been successfully subscribed!"
+            ],
+            "result": {
+              "duration": 45876300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user Verify success message \"You have been successfully subscribed!\" is visible on Display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You have been successfully subscribed!\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_success_message_is_visible_on_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@ProdTest"
+          },
+          {
+            "name": "@EmailSubscriptionValidation"
+          }
+        ]
+      }
+    ],
+    "name": "E-Commerce project website ProdTest",
+    "description": "",
+    "id": "e-commerce-project-website-prodtest",
+    "keyword": "Feature",
+    "uri": "classpath:features/ProdTest.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@ProdTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]

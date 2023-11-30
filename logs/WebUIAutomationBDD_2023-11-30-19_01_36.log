@@ -1,0 +1,32 @@
+2023-Nov-30 19:01:36 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Nov-30 19:01:36 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Nov-30 19:01:44 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Nov-30 19:01:44 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Nov-30 19:01:50 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Nov-30 19:01:50 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Nov-30 19:01:55 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on product button
+2023-Nov-30 19:01:55 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the product page title
+2023-Nov-30 19:01:56 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on cart button
+2023-Nov-30 19:01:56 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the cart page title
+2023-Nov-30 19:01:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/login button
+2023-Nov-30 19:01:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the signup page title
+2023-Nov-30 19:01:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on test cases button
+2023-Nov-30 19:01:59 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the test cases page title
+2023-Nov-30 19:02:00 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on API testing button
+2023-Nov-30 19:02:00 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verifyAPIS LIST FOR PRACTICEtext is available
+2023-Nov-30 19:02:02 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on contact us button
+2023-Nov-30 19:02:02 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify contact us page title
+2023-Nov-30 19:02:03 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Nov-30 19:02:03 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Nov-30 19:02:03 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Nov-30 19:02:05 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Nov-30 19:02:05 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user scroll down the page
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Nov-30 19:02:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter email for subscription
+2023-Nov-30 19:02:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on arrow button
+2023-Nov-30 19:02:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the subscription success msg
+2023-Nov-30 19:02:10 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
