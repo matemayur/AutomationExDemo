@@ -1,0 +1,5 @@
+2023-Dec-01 11:32:04 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 11:32:04 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 11:32:10 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 11:32:10 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 11:32:11 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

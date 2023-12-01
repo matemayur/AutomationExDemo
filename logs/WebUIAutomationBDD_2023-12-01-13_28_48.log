@@ -1,0 +1,21 @@
+2023-Dec-01 13:29:01 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 13:29:02 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 13:29:07 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 13:29:07 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 13:29:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/Login button
+2023-Dec-01 13:29:09 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify signupLogin page title
+2023-Dec-01 13:29:10 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Dec-01 13:29:13 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 13:29:13 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 13:29:17 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 13:29:17 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 13:29:19 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/Login button
+2023-Dec-01 13:29:19 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify signupLogin page title
+2023-Dec-01 13:29:20 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Dec-01 13:29:22 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 13:29:23 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 13:29:26 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 13:29:26 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 13:29:28 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/Login button
+2023-Dec-01 13:29:28 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify signupLogin page title
+2023-Dec-01 13:29:29 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

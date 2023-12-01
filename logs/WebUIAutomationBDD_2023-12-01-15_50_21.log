@@ -1,0 +1,24 @@
+2023-Dec-01 15:50:27 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 15:50:27 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 15:50:31 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 15:50:31 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 15:50:34 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/Login button
+2023-Dec-01 15:50:34 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify signupLogin page title
+2023-Dec-01 15:50:34 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to visible Login to your acc txt
+2023-Dec-01 15:50:34 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user put invalid password
+2023-Dec-01 15:50:35 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on login button
+2023-Dec-01 15:50:46 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Dec-01 15:50:49 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 15:50:49 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 15:50:55 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 15:50:55 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 15:50:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/Login button
+2023-Dec-01 15:50:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify signupLogin page title
+2023-Dec-01 15:50:57 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to visible Login to your acc txt
+2023-Dec-01 15:50:58 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user put invalid password
+2023-Dec-01 15:50:58 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on login button
+2023-Dec-01 15:51:12 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Dec-01 15:51:14 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 15:51:14 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 15:51:16 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 15:51:17 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

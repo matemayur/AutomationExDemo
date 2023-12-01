@@ -1,7 +1,7 @@
 package com.qa.automation.PageObjectFile;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
@@ -16,8 +16,6 @@ import io.cucumber.java.Scenario;
 
 public class LandingPageObjectFile {
 	
-		
-		private static final Logger logger = LogManager.getLogger(LandingPageObjectFile.class);
 		 private WebDriver driver;
 		 private WebDriverWait wait;
 		 Scenario scn;
@@ -41,7 +39,16 @@ public class LandingPageObjectFile {
 		 private By subscriptionText = By.xpath("//h2[text()='Subscription']");
 		 private By emailSubscription = By.xpath("//input[@id='susbscribe_email']");
 		 private By arrowBtn = By.xpath("//button[@id='subscribe']");
-		 private By successTxt = By.xpath("//div[text()='You have been successfully subscribed!']");//div[@class='alert-success alert']
+		 private By successTxt = By.xpath("//div[text()='You have been successfully subscribed!']");
+		 
+		 private By signupLogBtn = By.xpath("//a[text()=' Signup / Login']");
+		 
+		 private By signupLoginBtn = By.xpath(" //a[@href='/login']");
+		 
+		 private By loggedInUserName = By.xpath("//a[text()= ' Logged in as ']/b");
+		 private By LogoutBtn = By.xpath("//a[text()=' Logout']");
+
+		 
 		
 		//Public Methods
 		 public void homePageTitle()
@@ -130,5 +137,40 @@ public class LandingPageObjectFile {
 				WebElement successMsgEle = driver.findElement(successTxt);
 				Assert.assertEquals(SubscriptionsuccessMsg, successMsgEle.getText());
 		 }
+		 
+		 
+		 public void clickOnsignupLoginBtn()
+		 {
+			 WebElement signupLogBtnEle = driver.findElement(signupLogBtn);
+			 signupLogBtnEle.click();
+		 }
+		 
+		 
+		 public void verifySinupLoginButton()
+		 {
+				WebElement clickOnLoginBtnEle = driver.findElement(signupLoginBtn);
+				clickOnLoginBtnEle.click();
+		 }
+		 
+		 
+		 public void userNameAfterLoggedIn(String username)
+		 {
+			 WebElement loggedInUserNameTxtEle = driver.findElement(loggedInUserName);
+			 Assert.assertEquals(username,loggedInUserNameTxtEle.getText().trim());
+		 }
+		 
+		 
+		 
+		 public void userClickOnLogoutBtn()
+		 {
+			 WebElement logoutBtnEle = driver.findElement(LogoutBtn);
+			 logoutBtnEle.click();
+		 }
+		 
+		 
+
+		 
+		 
+		
 	
 }

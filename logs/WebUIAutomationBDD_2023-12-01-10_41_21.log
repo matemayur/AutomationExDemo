@@ -1,0 +1,19 @@
+2023-Dec-01 10:41:21 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Dec-01 10:41:21 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Dec-01 10:41:27 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Dec-01 10:41:27 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 10:41:32 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 10:41:32 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 10:41:35 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on product button
+2023-Dec-01 10:41:35 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the product page title
+2023-Dec-01 10:41:36 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on cart button
+2023-Dec-01 10:41:36 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the cart page title
+2023-Dec-01 10:41:37 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on signup/login button
+2023-Dec-01 10:41:37 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the signup page title
+2023-Dec-01 10:41:38 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on test cases button
+2023-Dec-01 10:41:38 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the test cases page title
+2023-Dec-01 10:41:40 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on API testing button
+2023-Dec-01 10:41:41 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verifyAPIS LIST FOR PRACTICEtext is available
+2023-Dec-01 10:41:42 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on contact us button
+2023-Dec-01 10:41:42 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify contact us page title
+2023-Dec-01 10:41:44 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

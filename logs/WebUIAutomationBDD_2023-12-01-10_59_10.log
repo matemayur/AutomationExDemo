@@ -1,0 +1,11 @@
+2023-Dec-01 10:59:13 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Edge Browser invoked
+2023-Dec-01 10:59:14 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 10:59:17 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 10:59:17 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 10:59:17 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user scroll down the page
+2023-Dec-01 10:59:18 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Dec-01 10:59:18 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the SUBSCRIPTION text
+2023-Dec-01 10:59:19 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter email for subscription
+2023-Dec-01 10:59:19 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on arrow button
+2023-Dec-01 10:59:20 AM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the subscription success msg
+2023-Dec-01 10:59:20 AM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

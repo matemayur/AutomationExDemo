@@ -1,0 +1,26 @@
+2023-Dec-01 18:18:56 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Dec-01 18:18:56 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Dec-01 18:19:03 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Dec-01 18:19:03 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 18:19:08 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 18:19:08 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 18:19:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to click on signup/login btn
+2023-Dec-01 18:19:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the signup/login page title
+2023-Dec-01 18:19:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to visible login acc text
+2023-Dec-01 18:19:10 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter the valid emailID
+2023-Dec-01 18:19:11 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter the valid Password
+2023-Dec-01 18:19:15 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on login button
+2023-Dec-01 18:19:16 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed
+2023-Dec-01 18:19:16 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up for browser path is completed
+2023-Dec-01 18:19:16 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Setting up chrome binary completed
+2023-Dec-01 18:19:18 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Chrome Browser invoked
+2023-Dec-01 18:19:19 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser get maximized
+2023-Dec-01 18:19:25 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - navigate to the url
+2023-Dec-01 18:19:25 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the home page title
+2023-Dec-01 18:19:26 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to click on signup/login btn
+2023-Dec-01 18:19:26 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user verify the signup/login page title
+2023-Dec-01 18:19:27 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user able to visible login acc text
+2023-Dec-01 18:19:27 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter the valid emailID
+2023-Dec-01 18:19:28 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user enter the valid Password
+2023-Dec-01 18:19:31 PM [main] INFO  com.qa.automation.stepdefs.StepDefs - user click on login button
+2023-Dec-01 18:19:32 PM [main] INFO  com.qa.automation.core.WebDriverfactory.WebDriverFactory - Browser got closed

@@ -14,7 +14,7 @@
               "user navigate to url http://automationexercise.com"
             ],
             "result": {
-              "duration": 3546721700,
+              "duration": 4891406400,
               "status": "passed"
             },
             "line": 5,
@@ -32,7 +32,7 @@
           },
           {
             "result": {
-              "duration": 21577400,
+              "duration": 23934600,
               "status": "passed"
             },
             "line": 6,
@@ -45,14 +45,301 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-30T13:34:51.111Z",
+        "start_timestamp": "2023-12-01T14:11:49.333Z",
         "before": [
           {
             "output": [
               "browser get invoked"
             ],
             "result": {
-              "duration": 4324637200,
+              "duration": 7698740200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User is able to open browser, Navigate to URL and validate the header section button of website",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-is-able-to-open-browser--navigate-to-url-and-validate-the-header-section-button-of-website",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 7979300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 952493800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3541704100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is able to click on Product button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_able_to_click_on_product_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47056700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is redirected to the product page title as \"Automation Exercise - All Products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - All Products\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_redirected_to_the_product_page_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994749300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is able to click on Cart button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_able_to_click_on_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14961000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user able on cart page title as \"Automation Exercise - Checkout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Checkout\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_on_cart_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194579900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is able to click on signup/login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_able_to_click_on_signup_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88761600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user over the signup/login page with title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_over_the_signup_login_page_with_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1420885100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is able to Click on test cases button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_able_to_click_on_test_cases_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11880100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is able over the test cases title as \"Automation Practice Website for UI Testing - Test Cases\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Practice Website for UI Testing - Test Cases\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_able_over_the_test_cases_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1314502300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on API Testing button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_api_testing_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "user verifyAPIS LIST FOR PRACTICEtext is available"
+            ],
+            "result": {
+              "duration": 214279300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User verify the \"APIS LIST FOR PRACTICE\" text is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"APIS LIST FOR PRACTICE\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_text_is_visible(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1805695500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is click on contact us button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_is_click_on_contact_us_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10955400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user able to see contact us page title as \"Automation Exercise - Contact Us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Contact Us\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_see_contact_us_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@HeaderSectionvalidate"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 3951487900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46874200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:12:14.806Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 3031804300,
               "status": "passed"
             },
             "match": {
@@ -70,7 +357,7 @@
               "The test case get passed,no screenshot get atttached"
             ],
             "result": {
-              "duration": 2989500,
+              "duration": 995400,
               "status": "passed"
             },
             "match": {
@@ -82,7 +369,7 @@
               "browser get closed"
             ],
             "result": {
-              "duration": 723881000,
+              "duration": 896446500,
               "status": "passed"
             },
             "match": {
@@ -95,7 +382,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20648700,
+              "duration": 54852300,
               "status": "passed"
             },
             "line": 28,
@@ -107,11 +394,10 @@
           },
           {
             "output": [
-              "user verify text SUBSCRIPTION",
-              "user verify textSUBSCRIPTION"
+              "user verify text SUBSCRIPTION"
             ],
             "result": {
-              "duration": 249018200,
+              "duration": 220598900,
               "status": "passed"
             },
             "line": 29,
@@ -128,11 +414,8 @@
             "keyword": "When "
           },
           {
-            "output": [
-              "user enter email matemayur786@gmail.com"
-            ],
             "result": {
-              "duration": 665363900,
+              "duration": 1185084900,
               "status": "passed"
             },
             "line": 30,
@@ -150,7 +433,7 @@
           },
           {
             "result": {
-              "duration": 125870600,
+              "duration": 157780900,
               "status": "passed"
             },
             "line": 31,
@@ -161,11 +444,8 @@
             "keyword": "And "
           },
           {
-            "output": [
-              "user verify success msg - You have been successfully subscribed!"
-            ],
             "result": {
-              "duration": 45876300,
+              "duration": 40872300,
               "status": "passed"
             },
             "line": 32,
@@ -187,10 +467,1130 @@
             "name": "@ui"
           },
           {
-            "name": "@ProdTest"
+            "name": "@AutoDemo"
           },
           {
             "name": "@EmailSubscriptionValidation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 4570604700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33726900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:12:24.454Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 2449592600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "User open home page url and verify emailId and password is incorrect credential and able to get error message",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-open-home-page-url-and-verify-emailid-and-password-is-incorrect-credential-and-able-to-get-error-message;;2",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 1451767200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993538800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click on signup/Login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_signup_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14994300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user redirected to signup/login page title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_redirected_to_signup_login_page_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536566100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user able to visible text as \"Login to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login to your account\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_visible_text_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207437200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter emailId \"abc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145910900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter password \"afaga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"afaga\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017995600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50862900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "emailId and password is invalid the user able to see error message as \"Your email or password is incorrect!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your email or password is incorrect!\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.email_id_and_password_is_invalid_the_user_able_to_see_error_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@ValidateSigupLoginerrorMesg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 3818520500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12673500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:12:36.971Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 2370518300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "User open home page url and verify emailId and password is incorrect credential and able to get error message",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-open-home-page-url-and-verify-emailid-and-password-is-incorrect-credential-and-able-to-get-error-message;;3",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 980800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 1032313000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1687334500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click on signup/Login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_signup_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18949100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user redirected to signup/login page title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_redirected_to_signup_login_page_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118684500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user able to visible text as \"Login to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login to your account\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_visible_text_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 488563000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter emailId \"xyz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178317800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter password \"habcaj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"habcaj\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 907480200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37564700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "emailId and password is invalid the user able to see error message as \"Your email or password is incorrect!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your email or password is incorrect!\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.email_id_and_password_is_invalid_the_user_able_to_see_error_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@ValidateSigupLoginerrorMesg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 6127411200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19510600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:12:47.688Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 3397524600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "User open home page url and verify emailId and password is incorrect credential and able to get error message",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-open-home-page-url-and-verify-emailid-and-password-is-incorrect-credential-and-able-to-get-error-message;;4",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 1925852700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1007712300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click on signup/Login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_signup_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10969500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user redirected to signup/login page title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_redirected_to_signup_login_page_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48868800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user able to visible text as \"Login to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login to your account\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_visible_text_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175158800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter emailId \"tiger@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tiger@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2416825400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter password \"bdjs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bdjs\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 956047700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39892600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "emailId and password is invalid the user able to see error message as \"Your email or password is incorrect!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your email or password is incorrect!\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.email_id_and_password_is_invalid_the_user_able_to_see_error_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@ValidateSigupLoginerrorMesg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 3694517600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18948700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:13:03.851Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 2130685900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "User open the home page url and verify emailId and password is valid",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-open-the-home-page-url-and-verify-emailid-and-password-is-valid;;2",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 745006200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1339071300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user click to signup/login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_to_signup_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10972700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user redirected to login page with title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_redirected_to_login_page_with_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51948100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user able to see the text \"Login to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login to your account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_see_the_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282043400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user enter email id as \"ciwika1748@frandin.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ciwika1748@frandin.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_id_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107713000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user enter password as \"123456.Abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456.Abc\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2333858000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "user verify username after logged in - Ryan Wick"
+            ],
+            "result": {
+              "duration": 50435200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user verify with \"Ryan Wick\" just after Logged in as button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ryan Wick\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_with_just_after_logged_in_as_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1647332100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click on logout button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_logout_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@ValidateEmailIDandPassForSignup/LoginPurpose"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigate to the base URL of application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "user navigate to url http://automationexercise.com"
+            ],
+            "result": {
+              "duration": 5034634700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the home application url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11971600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the home page is visible successfully",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_the_home_page_is_visible_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T14:13:16.284Z",
+        "before": [
+          {
+            "output": [
+              "browser get invoked"
+            ],
+            "result": {
+              "duration": 2019150700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "User open the home page url and verify emailId and password is valid",
+        "description": "",
+        "id": "e-commerce-project-website-prodtest;user-open-the-home-page-url-and-verify-emailid-and-password-is-valid;;3",
+        "after": [
+          {
+            "output": [
+              "The test case get passed,no screenshot get atttached"
+            ],
+            "result": {
+              "duration": 832100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.takescreenshot()"
+            }
+          },
+          {
+            "output": [
+              "browser get closed"
+            ],
+            "result": {
+              "duration": 694287300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1153201300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user click to signup/login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_to_signup_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10969600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user redirected to login page with title as \"Automation Exercise - Signup / Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Exercise - Signup / Login\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_redirected_to_login_page_with_title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88761100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user able to see the text \"Login to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login to your account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_able_to_see_the_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 545541600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user enter email id as \"ciwika1744@frandin.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ciwika1744@frandin.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_email_id_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141621500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user enter password as \"123456.Abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456.Abc\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3430425400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "user verify username after logged in - James Richard"
+            ],
+            "result": {
+              "duration": 36903600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user verify with \"James Richard\" just after Logged in as button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"James Richard\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_verify_with_just_after_logged_in_as_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1753500300,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click on logout button",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_logout_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@AutoDemo"
+          },
+          {
+            "name": "@ValidateEmailIDandPassForSignup/LoginPurpose"
           }
         ]
       }
@@ -199,7 +1599,7 @@
     "description": "",
     "id": "e-commerce-project-website-prodtest",
     "keyword": "Feature",
-    "uri": "classpath:features/ProdTest.feature",
+    "uri": "classpath:features/AutoDemoFile.feature",
     "tags": [
       {
         "name": "@ui",
@@ -210,7 +1610,7 @@
         }
       },
       {
-        "name": "@ProdTest",
+        "name": "@AutoDemo",
         "type": "Tag",
         "location": {
           "line": 1,
