@@ -32,7 +32,6 @@ And  user click on arrow button
 Then user Verify success message "You have been successfully subscribed!" is visible on Display
 
 
-
 @ValidateSigupLoginerrorMesg
 Scenario: User open home page url and verify emailId and password is incorrect credential and able to get error message
 Given user click on signup/Login button
@@ -61,8 +60,8 @@ Then user click on login button
 Then user verify with "<Logged_In_As>" just after Logged in as button 
 And user click on logout button
 Examples:
-|Email_Id                   |Password  |Logged_In_As |
-|ciwika1748@frandin.com     |123456.Abc|Ryan Wick    |
-|ciwika1744@frandin.com     |123456.Abc|James Richard|
+| Email_Id                | Password      | Logged_In_As  |
+| ciwika1748@frandin.com  | 123456.Abc    | Ryan Wick     |
+| ciwika1744@frandin.com  | 123456.Abc    | James Richard |
 
 

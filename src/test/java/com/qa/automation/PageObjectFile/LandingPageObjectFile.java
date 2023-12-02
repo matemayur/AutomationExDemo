@@ -58,12 +58,22 @@ public class LandingPageObjectFile {
 			   Assert.assertEquals(expectedTitle, actualTitle);
 		 }
 		 
+		 
+		 
 		 public void clickProductsBtn()
 		 {
 			 WebElement prodBtnEle = driver.findElement(prodBtn);
 			 wait.until(ExpectedConditions.visibilityOf(prodBtnEle));
 			 prodBtnEle.click();
 		 }
+		 
+		 
+		 public void validateProdPageTitle(String prodPageTitle)
+			{
+				Assert.assertEquals(true, driver.getTitle().contains(prodPageTitle));
+			}
+		 
+		 
 		 
 		 public void clickCartBtn()
 		 {

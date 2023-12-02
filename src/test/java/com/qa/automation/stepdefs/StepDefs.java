@@ -2,13 +2,11 @@ package com.qa.automation.stepdefs;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import org.openqa.selenium.WebDriver;
 
 import com.qa.automation.PageObjectFile.HeaderSectionPageObjectFile;
 
 import com.qa.automation.PageObjectFile.LandingPageObjectFile;
-import com.qa.automation.PageObjectFile.ProductpageObjectFile;
 import com.qa.automation.PageObjectFile.SingupLoginPOMFile;
 import com.qa.automation.core.WebDriverfactory.WebDriverFactory;
 
@@ -32,7 +30,6 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	
 	LandingPageObjectFile landingPageObjectFile;
-	ProductpageObjectFile productPageObjectFile;
 	HeaderSectionPageObjectFile headerSectionPageObjectFile;
 	SingupLoginPOMFile singupLoginPOMFile;
 	
@@ -47,7 +44,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 		driver = WebDriverFactory.setUpBrowser(browserName);
 		scn.log("browser get invoked");
 		landingPageObjectFile = new LandingPageObjectFile(driver);
-		productPageObjectFile = new ProductpageObjectFile(driver);
+//		productPageObjectFile = new ProductpageObjectFile(driver);
 		headerSectionPageObjectFile = new HeaderSectionPageObjectFile(driver);
 		singupLoginPOMFile = new SingupLoginPOMFile(driver);
 		
@@ -72,10 +69,10 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	
 	@Given("user navigate to the home application url {string}")
-	public void user_navigate_to_the_home_application_url(String url) {
-		
-		 WebDriverFactory.setURL(baseUrl);
-		 scn.log("user navigate to url "  + url);
+	public void user_navigate_to_the_home_application_url(String url)
+	{
+	   WebDriverFactory.setURL(url);
+	   scn.log("user navigate to url" +" - "+ url);
 	}
 
 
@@ -98,7 +95,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	@When("user is redirected to the product page title as {string}")
 	public void user_is_redirected_to_the_product_page_title_as(String ProdPageTitle) {
 		
-		 productPageObjectFile.validateProdPageTitle(ProdPageTitle);
+		landingPageObjectFile.validateProdPageTitle(ProdPageTitle);
 		 logger.info("user verify the product page title");
 	}
 	
