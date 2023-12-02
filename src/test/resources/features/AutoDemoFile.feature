@@ -43,10 +43,10 @@ And user enter password "<Password>"
 Then user click on login button
 And emailId and password is invalid the user able to see error message as "Your email or password is incorrect!" 
 Examples:
-|Email_Id            |Password |
-|abc@gmail.com       |afaga    |
-|xyz@gmail.com       |habcaj   |
-|tiger@gmail.com     |bdjs     |
+|Email_Id                |Password  |
+|abc@gmail.com           |afaga     |
+|xyz@gmail.com           |habcaj    |
+|mayur@gmail.com         |gacacaj   |
 
 
 

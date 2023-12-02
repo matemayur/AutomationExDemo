@@ -13,6 +13,9 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty", // to generate reports
             "html:target/html/htmlreport.html",
             "json:target/json/file.json",
+            "junit:target/cucumberXML.xml",
+            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+		    "timeline:test-output-thread/"
             },
         monochrome = true,
         publish=true,
