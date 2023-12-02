@@ -72,7 +72,6 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	public void user_navigate_to_the_home_application_url(String url)
 	{
 	   WebDriverFactory.setURL(url);
-	   scn.log("user navigate to url" +" - "+ url);
 	}
 
 
@@ -153,7 +152,6 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	@Then("User verify the {string} text is visible")
 	public void user_verify_the_text_is_visible(String apiTestingList) {
 		headerSectionPageObjectFile.verifyAPITestingPage(apiTestingList);
-	    scn.log("user verify" + apiTestingList + "text is available");
 	    logger.info("user verify" + apiTestingList + "text is available");
 		
 	}
@@ -192,7 +190,6 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	@When("After scrooling down user is able to see {string} keyword")
 	public void after_scrooling_down_user_is_able_to_see_keyword(String SUBSCRIPTION) {
 		 landingPageObjectFile.verifySubscriptionTxt(SUBSCRIPTION);
-	      scn.log("user verify text " + SUBSCRIPTION  );
 	      logger.info("user verify the SUBSCRIPTION text");
 	      
 	}
@@ -228,6 +225,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Given("user click on signup\\/Login button")
 	public void user_click_on_signup_login_button() {
+		
 		landingPageObjectFile.clickSignUpOrLoginBtn();
 		logger.info("user click on signup/Login button");
 	}
@@ -235,14 +233,15 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 
 	@When("user redirected to signup\\/login page title as {string}")
 	public void user_redirected_to_signup_login_page_title_as(String signupLogPagetitle) {
+		
 		singupLoginPOMFile.verifySigLogPageTitle(signupLogPagetitle);
-	
 	    logger.info("user verify signupLogin page title");
 	}
 	
 	
 	@Then("user able to visible text as {string}")
 	public void user_able_to_visible_text_as(String LoginToYourAccount) {
+		
 		singupLoginPOMFile.verifyLoginToYourAcText(LoginToYourAccount);
 		 logger.info("user able to visible Login to your acc txt");
 	}
@@ -250,12 +249,15 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user enter emailId {string}")
 	public void user_enter_email_id(String emailIdLogin) {
+		
 		singupLoginPOMFile.verifyEmailIdLogin(emailIdLogin);
+		logger.info("user put invalid EmailID");
 	}
 	
 	
 	@Then("user enter password {string}")
 	public void user_enter_password(String PasswordLogin) {
+		
 		singupLoginPOMFile.verifyPassLogin(PasswordLogin);
 		 logger.info("user put invalid password");
 	}
@@ -263,6 +265,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user click on login button")
 	public void user_click_on_login_button() {
+		
 		singupLoginPOMFile.verifyClickOnLoginBtn();
 		logger.info("user click on login button");
 	}
@@ -270,6 +273,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("emailId and password is invalid the user able to see error message as {string}")
 	public void email_id_and_password_is_invalid_the_user_able_to_see_error_message_as(String ErrorMsgVisible) {
+		
 		singupLoginPOMFile.ValidateErrorMsgVisible(ErrorMsgVisible);
 		logger.info("user able to visible error message");
 	}
@@ -281,6 +285,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Given("user click to signup\\/login button")
 	public void user_click_to_signup_login_button() {
+		
 		landingPageObjectFile.verifySinupLoginButton();
 		logger.info("user able to click on signup/login btn");
 	}
@@ -288,6 +293,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 
 	@When("user redirected to login page with title as {string}")
 	public void user_redirected_to_login_page_with_title_as(String SignLoginPageTitle) {
+		
 		singupLoginPOMFile.VerifySingLoginPageTitle(SignLoginPageTitle);
 		logger.info("user verify the signup/login page title");
 	}
@@ -295,6 +301,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user able to see the text {string}")
 	public void user_able_to_see_the_text(String LoginToYourAccount) {
+		
 		singupLoginPOMFile.verifyLoginToYourAccountText(LoginToYourAccount);
 		logger.info("user able to visible login acc text");
 	}
@@ -302,6 +309,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user enter email id as {string}")
 	public void user_enter_email_id_as(String EmailIdforLogin) {
+		
 		singupLoginPOMFile.verifyEmail(EmailIdforLogin);
 		logger.info("user enter the valid emailID");
 	}
@@ -309,6 +317,7 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user enter password as {string}")
 	public void user_enter_password_as(String PasswordForLoginPurpose) {
+		
 		singupLoginPOMFile.verifyPassword(PasswordForLoginPurpose);
 		logger.info("user enter the valid Password");
 	}
@@ -316,8 +325,8 @@ private static final Logger logger = LogManager.getLogger(StepDefs.class);
 	
 	@Then("user verify with {string} just after Logged in as button")
 	public void user_verify_with_just_after_logged_in_as_button(String username) {
+		
 		 landingPageObjectFile.userNameAfterLoggedIn(username);
-		 scn.log("user verify username after logged in - "+ username);
 		 logger.info("user verify username after logged in - "+ username);
 	}
 
